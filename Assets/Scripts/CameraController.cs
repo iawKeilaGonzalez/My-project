@@ -21,7 +21,7 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.position = sphere.transform.position - offset;
+        transform.position = sphere.transform.position + offset;
     }
 
 }
